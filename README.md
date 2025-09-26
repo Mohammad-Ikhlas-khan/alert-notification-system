@@ -66,7 +66,7 @@ cd alert-notification-system
 POST /admin/alerts
 ```
 
-**Request Body:**
+**Example Request Body:**
 ```json
 {
   "title": "Server Down",
@@ -145,7 +145,7 @@ GET /analytics
 
 **Response Example:**
 ```json
-{}
+{
   "severityBreakdown": {
     "INFO": 2,
     "WARNING": 1
